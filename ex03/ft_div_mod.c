@@ -15,15 +15,9 @@
 
 void	ft_div_mod(int a, int b , int *div, int *mod)
 {
-
-		 int		div_result;
-		 int		mod_result;
-		  
-		 div_result = a/b;
-		 div = &div_result;
-		 mod_result = a%b;
-		 mod =&mod_result;
-		}
+	*div = a / b;
+	*mod = a% b;
+}
  
 		
 
